@@ -190,7 +190,10 @@ Next, the =world= function creates the 2-dimensional "board" of cells
 (here, a square of 80x80 cells), represented as vectors (rows or the
 vertical y-dimension) of a vector (the horizontal x-dimension columns
 in one row):
+
+#name: sim-world-board-creation
 #+name sim-world-board-creation
+#+name: sim-world-board-creation
 #+BEGIN_SRC clojure :exports code :results silent :session s1 
 ;; World is a 2d vector of refs to cells
 (def world 
