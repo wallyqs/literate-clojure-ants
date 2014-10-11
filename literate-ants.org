@@ -268,7 +268,7 @@ themselves. As before, we start with =defstruct=, defining an ant as
 having only one required key, its direction. (An ant may temporarily
 have another key, =:food=.)
 
-#+name ants-defined
+# #+name: ants-defined
 #+BEGIN_SRC clojure :exports code :results silent :session s1 
 (defstruct ant :dir)  ; Always has dir heading; may also have :food
 
